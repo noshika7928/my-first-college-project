@@ -1,0 +1,48 @@
+<html>
+   <head>
+     <style>
+       .form{
+        display: flex;
+        justify-content: center;
+       }
+
+       #button{
+        display: flex;
+        justify-content: center;
+        padding-around: 5%;
+        gap: 10%;
+       }
+     </style>  
+   </head>
+   <body>
+     <div class="form">
+     <form>
+      
+       <p><label>Name</label>
+       <input type="text" placeholder="enter your name"></p>
+       <p><label>Register no.</label>
+       <input type="number" placeholder="enter your register no."></p>
+       <p><label>E-Mail</label>
+       <input type="email" placeholder="enter your email"></p>
+       <p><label>Phone no.</label>
+       <input type="number" placeholder="enter your phone no."></p>
+       <p><label>Registeration date</label>
+       <input type="calender"></p>
+       
+    </form>
+     </div> 
+     <div id="button">
+       <button onclick="alert('submitted')"><a href="submit.html">Submit</a></button>
+       <button onclick="document.querySelector('form').reset()"><a href="register.html">Clear form</a></button>
+      </div> 
+        
+</body>
+
+
+
+
+
+
+
+
+</html>
