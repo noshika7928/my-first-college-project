@@ -1,30 +1,55 @@
 <html>
-  <head>
-   <style>
-    .hero{
-       background-image: url("past.png");
-    }
-    .content{
-        display: flex;
-        justify-content: center;
-        font-size: 30px;
-        background-image: url("past.png");
-    }
-    </style>
-  </head>
+    <head>
+       <title>Nandha events</title>
 
-  <body>
-    <div class="hero">
-     <h1 style="color: green;">DISCLAIMER</h1>
-     <p style="font-size: 50px">This academic year,our college has conducted many events for students.We conduct various technical events,cultural events,and sports activities.These events help students to improve their skills,show their talents,and learn teamwork.Our college management and faculty members support us to organize these events successfully.</p>
-     </div>  
-     <div class="content">
+       <style> 
+          .hero_section{
+            background-color; bisque;
+            display; flex;
+            text-align: center;
+            gap: 10%;
+          }
 
-       <ol> 
-          <li>PONGAL</li>
-          <li>ONAM</li>
-          <li>AYUDHA POOJA</li>
-       </ol> 
-    </div>   
-   </body>
-</html>         
+          #picture{
+            display: flex;
+            gap: 5%;
+            padding-bottom: 5%;
+            padding-top: 5%;
+            
+          }
+
+          #footer{
+            display: flex;
+            justify-content: center;
+          }
+
+       </style>   
+    </head>
+
+    <body>
+     <div class="hero_section">
+       <img src="events.png" alt="events image" height="100px" width="100px" style="border-radius:50%">
+       <h1>NANDHA EVENTS 27</h1>
+
+        <a href="home.html">
+          <p>Home</p>
+        </a>
+        <a href="about.html">
+          <p>About</p>
+        </a>
+        <a href="contact.html">
+           <p>Contact</p>
+        </a>       
+
+     </div>
+     <div id="picture">
+            <img src="pongal.png" alt="pongal image" height="400px" width="400px">
+            <img src="onam.png" alt="onam image" height="400px" width="400px">
+            <img src="ayudha pooja.png" alt="ayudha pooja image" height="400px" width="400px">
+      </div>
+      <div id="footer">
+            <button style="color: red; background-color: bisque; font color: black;"><a href="register.html">REGISTER NOW</a></button>
+      </div>      
+
+
+</html>
